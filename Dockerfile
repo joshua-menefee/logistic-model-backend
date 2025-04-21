@@ -11,4 +11,4 @@ COPY . .
 RUN ./mvnw clean install -DskipTests
 
 # Use the generated JAR file
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/Logistic_Model-0.0.1-SNAPSHOT.jar"]
