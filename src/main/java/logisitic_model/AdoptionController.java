@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "https://joshua-menefee.github.io/logistic-model-frontend/")
+@CrossOrigin(origins = "https://joshua-menefee.github.io")
 @RestController
 public class AdoptionController {
     @GetMapping("/simulate")
